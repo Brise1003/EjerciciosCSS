@@ -1,0 +1,128 @@
+
+/*
+selector: etiqueta p
+propiedad: color
+valor: rgb(0, 145, 29)
+*/
+
+/*
+Selectores
+
+    - Selectores por etiqueta
+
+    Son instrucciones que podemos usar para seleccionar nuestras ETIQUETAS de HTML. Los selectores son una manera de identificar una etiqueta en particular.
+
+    Una vez que seleccionamos nuestro elemento, abrirelos llaves para poder modificar sus propiedades. Cerramos las llaves cuando terminemos de modificar.
+
+    - Selectores por clase
+
+    Cuando usamos una clase, podemos realizar la misma modificaciones para todos los elementos que tengan esa clase en comun. Para modificarlo, los seleccionas con un punto.
+
+    Ejemplo:
+        .nombreDeLaClase
+
+
+    - Selectores por ID
+
+    Usamos un ID como manera de identificacion de un elemento en particular, y lo seleccionamos con el signo de gato o numeral
+
+    Ejemplo:
+        #nombreDelId
+
+
+
+*/
+
+
+body {background-color: rgb(231, 231, 231);}
+
+#parrafo1 { color: rgb(145, 114, 0);background-color: rgb(215, 215, 215);}
+
+#parrafo2 {color: rgb(167, 147, 77);background-color: rgb(215, 215, 215);}
+
+p { color: rgb(190, 16, 161); background-color: rgb(204, 204, 204);}
+
+.cohorte {background-color: azure;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+#Jaciel { color: lightskyblue; }
+
+#Maryana { color: crimson; font-size: large; }
+
+.caja {
+     /*Estilos de la caja. Todos los elementos de HTML, se tratan con si estuvieran dentro de una caja */
+     margin: 30px;
+     padding: 20px;
+     border-style: dotted;
+     border-radius: 20px;
+    
+    background-color: rgb(255, 255, 255);}
+
+.cajaflotante{
+    margin: 40px 30px 0px 30px;
+    background-color: rgb(255, 255, 255);
+    border-style: groove;
+    border-width: 1px;
+    border-color: rgb(172, 172, 172);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cabecera{
+    padding: 10px;
+    border-bottom: solid 1px #ffffff;
+    text-align: center;
+}
+
+.footer{
+    padding: 10px;
+    border-top: solid 1px #ffffff;
+    text-align: center;
+}
+
+.primario{
+    background-color: #0090ff;
+    border: 0px;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.secundario{
+    background-color: #afc2d0;
+    border: 0px;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.facebook{
+    margin: 20px;
+    padding: 15px;
+    background-color: #3b5998;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+}
+
+.instagram{
+    margin: 20px;
+    padding: 15px;
+    background-color: #3b5998;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+}
+
+.tiktok{
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+}
